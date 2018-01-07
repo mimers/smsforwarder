@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "586901671576",
+    "firebase_url": "https://joker-lab.firebaseio.com",
+    "project_id": "joker-lab",
+    "storage_bucket": "joker-lab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586901671576:android:3383a4b9b1ee7592",
+        "android_client_info": {
+          "package_name": "li.joker.smsforwarder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586901671576-2op2c5shtnolcabo1p8evqtc5u333spa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "li.joker.smsforwarder",
+            "certificate_hash": "c1f88f2e935713e0510830e27e37933213c6c740"
+          }
+        },
+        {
+          "client_id": "586901671576-883amsn183va6h8ti5u77peahsf3pg5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK-DRCiaZhY5drSv4ugaQ_sVEgGh8V3Tc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586901671576-l75e42o5mria84rpnekruq369g28k6pe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.demo.app"
+              }
+            },
+            {
+              "client_id": "586901671576-883amsn183va6h8ti5u77peahsf3pg5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

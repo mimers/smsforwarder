@@ -1,13 +1,11 @@
 package li.joker.smsforwarder;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.EditText;
+
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
             String phone = ((EditText) findViewById(R.id.another_phone)).getText().toString();
             SmsUtil.updateTargetPhone(phone);
             SmsUtil.sendSms(phone, this.toString());
+            FirebaseAnalytics.getInstance(getApplicationContext()).logEvent("setting_target_number", null);
         });
 
         ((EditText) findViewById(R.id.another_phone)).setText(SmsUtil.getTargetPhone());
