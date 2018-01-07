@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmsForwarder</string>
+    <string name="action_settings">Settings</string>
+    <string name="forward_all_sms_to">Forward all sms to:</string>
+    <string name="your_another_phone">your another phone</string>
+    <string name="ok">OK</string>
+</resources>
